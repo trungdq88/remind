@@ -1,7 +1,7 @@
 require('shelljs/global');
 var fs = require('fs');
 
-fs.readFile('data.json', 'utf8', function (err, data) {
+fs.readFile(__dirname + '/data.json', 'utf8', function (err, data) {
   if (!err) {
     data = JSON.parse(data);
     onReady(data);
