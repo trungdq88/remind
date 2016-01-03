@@ -12,3 +12,5 @@ This simple call a input textbox that ask user a random question from `data.json
   "question 3": "answer 3"
 }
 ```
+
+This script call `osascript` to open a window popup so it only works in OSX for now.
